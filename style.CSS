@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.botao {
+  text-align: center;
+  margin-top: 23px;
+}
+
+img {
+  width: 100px;
+}
+#img1 {
+  background-color: #adebbe;
+}
+#img2 {
+  background-color: #adebbe;
+}
+#img3 {
+  background-color: #adebbe;
+  
+}
+
+.img0 {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+.teste {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 10px 0px 30px;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+}
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10vh 80vh 10vh;
+}
+
+header {
+  background-color: #516091;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #516091;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+main {
+  background-color: lightblue;
+  position: relative;
+}
+
+.Ave {
+  display: "Aves";
+}
+input[type="text"]:focus {
+  width: 70%;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width:480){
+  header,footer, main{
+    width: 135%;
+  }
+main{
+  height: 110vh;
+}
+footer{
+  position: relative;
+  
+}
+  
+}
+
